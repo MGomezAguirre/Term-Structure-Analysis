@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "termstruc"
+version = "0.1.0"
+description = "Evaluate the performance of Yield Curve estimation models"
+authors = ["Mauricio Gomez Aguirre"]
+packages= [{include = "termstruc"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+pytest = "^8.3.2"
+yfinance = "^0.2.43"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
